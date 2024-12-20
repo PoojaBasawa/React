@@ -1,7 +1,7 @@
 import React from 'react'
 import './Signup.css'
 import {Link} from 'react-router-dom'
-import {Router} from 'react-router-dom'
+import { Router } from 'react-router-dom'
 function Signup() {
   return (
     <div>

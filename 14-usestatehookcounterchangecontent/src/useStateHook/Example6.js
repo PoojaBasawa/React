@@ -1,3 +1,5 @@
+// Counter
+
 import React, { useState } from 'react'
 import './example6.css'
 function Example6() {
