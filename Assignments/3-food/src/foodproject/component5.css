@@ -1,0 +1,22 @@
+.main5{
+    height: 630px;
+    width: 700px;
+    background-image: linear-gradient(to left,aqua,yellow);
+    margin:10px 0px 0px 0px;
+}
+.new5{
+    background-color: red;
+    height: 230px;
+    width: 550px;
+    margin: 200px 0px 0px 10px;
+}
+.p2{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.click{
+    color:black;  
+}
+.p1{
+    padding: 10px 0px 0px 0px;
+}

@@ -1,0 +1,10 @@
+.main4{
+    height: 630px;
+    width: 725px;
+    background-image: linear-gradient(to left,yellow,aqua); 
+    margin:10px 0px;
+}
+.new4{
+    display: flex;
+    gap:25px;
+}

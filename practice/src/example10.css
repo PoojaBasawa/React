@@ -1,0 +1,78 @@
+/* General Styles */
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color:#f4f4f4; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    padding-top: 12px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password'],
+select,
+textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type='radio'] {
+    margin-right: 10px;
+}
+
+#btn {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#btn:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.error {
+    color: red;
+    font-size: larger;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    font-size: larger;
+    text-align: center;
+}
+/* Optional: You can add more styles here */

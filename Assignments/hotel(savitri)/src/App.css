@@ -1,0 +1,133 @@
+/* General Reset */
+body, html, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #fff;
+}
+
+.navbar .logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar .img{
+  height : 300px;
+  width : auto;
+   
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.social-icons i {
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+ /* Hero Section */
+ .hero {
+  background: "/images/building.jpeg" alt="building" ;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+.hero-text p {
+  margin: 10px 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+/* Info Section */
+.info-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.info-box {
+  width: 30%;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Details Section */
+.details-section {
+  padding: 20px;
+  background: #eaeaea;
+}
+
+.details-section h2 {
+  margin-bottom: 20px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  width: 30%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 15px 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.card button {
+  padding: 10px 20px;
+  border: none;
+  background: black;
+  color: white;
+  cursor:pointer;
+}

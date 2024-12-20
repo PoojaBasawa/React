@@ -1,0 +1,18 @@
+.nav{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    padding:15px;
+    margin: 0px 0px 20px 0px;
+    background-color: black;
+}
+.nav li {
+    display: inline-block;
+    margin-right: 50px; /* add space between items */
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+}

@@ -1,0 +1,16 @@
+#header h1{
+    color: white;
+    background-color: lightslategray;
+    text-align: center;
+    padding: 10px 10px;
+}
+#in input{
+    background-color: lightgrey;
+    border: none;
+    padding: 5px 575px;
+}
+#op{
+    background-color: lightgrey;
+    border: none;
+    padding: 5px 575px;
+}

@@ -1,0 +1,19 @@
+.nav{
+    height: 30px;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+    padding:10px;
+    margin: 0px 0px 0px 0px;
+    background-color: #ff4500;
+}
+.nav li {
+    display: inline-block;
+    margin-right: 50px; /* add space between items */
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    font-size: 20px;
+}
